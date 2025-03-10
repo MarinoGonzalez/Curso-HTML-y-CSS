@@ -7,8 +7,24 @@
 body{
     background-color: black;
     color: #f6f6f6;
-    height: 100vh;
     box-sizing: border-box;
+    /*height: 100vh*/
+}
+.header__menu-link{
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.header__menu-link:hover{
+    color: #007bff;
+}
+.header__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .presentacion{
     align-items: center;
@@ -76,3 +92,13 @@ strong{
     border: 2px solid #ffffff;
     cursor: pointer;
 }
+.footer{
+    background-color: #22d4fd;
+    color: #000000;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
