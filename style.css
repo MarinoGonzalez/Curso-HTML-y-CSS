@@ -36,6 +36,7 @@ strong{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
 }
+
 .presentacion__contenido--lista{
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
@@ -68,4 +69,10 @@ strong{
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.Presentacion__contenido--link:hover{
+    background-color: #272727;
+    width: 450px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
 }
