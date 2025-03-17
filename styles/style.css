@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --color-primario:#000000;
-    --color-secundario: #f6f6f6;
-    --Color-terciario: #22d4fd;
+    --color-primario:#FEF9E1;
+    --color-secundario: #A31D1D;
+    --Color-terciario: #6D2323;
 
+    --color-hover: #272727;
     --fuente-montserrat: "Montserrat", sans-serif;
     --fuente-krona: "Krona One", sans-serif;
 }
@@ -96,7 +97,7 @@ strong{
     gap: 10px;
 }
 .Presentacion__contenido--link:hover{
-    background-color: #272727;
+    background-color: var(--color-hover);
     width: 450px;
     border: 2px solid var(--color-secundario);
     cursor: pointer;
